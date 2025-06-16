@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background: radial-gradient(circle, #ff0000 0%, #000000 80%);
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    color: black;
+}
+
+/* Header */
+header{ 
+    background: radial-gradient(circle, #ff0000 0%, #000000 80%);
+}
+
+.click-options {
+    height: 3rem;
+    width: 75%;
+    margin: 3rem auto;
+    padding: 1rem;
+    background: #1a0033;
+    border-bottom: 1px solid white;
+    
+}
+
+.click-options ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.click-options ul a {
+    text-decoration: none;
+}
+
+/* MAIN */
+#main-container {
+    border: 0px solid;
+    background: #1a0033;
+    color: #ffffff;
+    height: auto;
+    min-height: 300px;
+    border-radius: 15px;
+}
+
+.container {
+    display: none;
+}
+
+.container.show {
+    display: block;
+    padding: 0 2rem 2rem 2rem;
+}
+
+#main-container {
+    width: 50%;
+    height: auto;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* Section Home */
+.container-home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+}
+
+#right-home img {
+    height: 30vh;
+    width: 25vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+#left-home h1 {
+    margin-bottom: 2rem;
+}
+
+#left-home p {
+    margin: 0 2rem 0.5rem 0;
+    text-align: justify;
+}
+
+/* Section Curse */
+#curse ul{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+/* Section Project */
+.projGuiado img {
+    height: 50vh;
+}
+
+.projGuiado {
+    text-align: center;
+}
+
+#skills, #contact{
+    text-align: center;
+}
+
+summary {
+    margin-bottom: 1rem;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/* Img - Project / Skills */
+#img-port{
+    font-size: 3rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.fa-brands, .fa-solid{
+    text-decoration: none;
+}
