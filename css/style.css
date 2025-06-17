@@ -58,19 +58,20 @@ body {
     color: rgb(168, 168, 168);
     padding: 0.5rem 1rem 0.5rem 1rem ;
     border-radius: 0.5rem 0.5rem 0 0;   
-    opacity: 0.8;
+    opacity: 0.4;
     transition: 0.5 ease;
 }
 
 .buttons:hover {
     background-color: rgb(168, 168, 168);
     color: #E6E6E6;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .buttons.active{
     background-color: rgb(168, 168, 168);
     color: #E6E6E6;
+    opacity: 1;
 }
 
 h2 {
@@ -146,6 +147,11 @@ figcaption a {
     font-size: 3rem;
     color: #E6E6E6;
     padding: 0.5rem;
+    opacity: 0.5;
+}
+
+#img-port:hover {
+    opacity: 1;
 }
 
 .fa-brands, .fa-solid{
