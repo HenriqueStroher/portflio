@@ -19,6 +19,7 @@ body {
     width: 50%;
     min-height: 400px;
     border-radius: 15px;
+    box-shadow: 10px 10px 15px 1px #000000;
     margin: 0 auto;
 }
 
@@ -59,7 +60,7 @@ body {
     padding: 0.5rem 1rem 0.5rem 1rem ;
     border-radius: 0.5rem 0.5rem 0 0;   
     opacity: 0.4;
-    transition: 0.5 ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .buttons:hover {
@@ -72,6 +73,7 @@ body {
     background-color: rgb(168, 168, 168);
     color: #E6E6E6;
     opacity: 1;
+    transition: all 0.3s ease-in-out;
 }
 
 h2 {
@@ -102,6 +104,7 @@ h2 {
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
+    box-shadow: 10px 10px 15px 1px #000000;
 }
 
 #left-home h1 {
@@ -123,6 +126,8 @@ h2 {
 /* Section Project */
 .projGuiado img {
     height: 50vh;
+    box-shadow: 10px 10px 15px 1px #000000;
+    border-radius: 1rem;
 }
 
 .projGuiado {
@@ -135,6 +140,12 @@ h2 {
 
 summary {
     margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+summary:hover {
+    color: #ffffffab;
+    transition: all 0.2s ease-in-out;
 }
 
 figcaption a {
@@ -148,6 +159,7 @@ figcaption a {
     color: #E6E6E6;
     padding: 0.5rem;
     opacity: 0.5;
+    transition: all 0.3s ease-in-out;
 }
 
 #img-port:hover {
