@@ -58,11 +58,14 @@ body {
     color: rgb(168, 168, 168);
     padding: 0.5rem 1rem 0.5rem 1rem ;
     border-radius: 0.5rem 0.5rem 0 0;   
+    opacity: 0.8;
+    transition: 0.5 ease;
 }
 
 .buttons:hover {
     background-color: rgb(168, 168, 168);
     color: #E6E6E6;
+    opacity: 1;
 }
 
 .buttons.active{
