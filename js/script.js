@@ -5,10 +5,13 @@ buttons.forEach(button => button.addEventListener('click', () => clickedButton(b
 const clickedButton = (button) => {
     const containers = document.querySelectorAll('.container');
 
-    containers.forEach(container => container.classList.remove('show'));
+    buttons.forEach(button => button.classList.remove('active'));
+    button.classList.add('active')
 
     const hrefButton = button.getAttribute('href').substring(1);
     const selectId = document.getElementById(hrefButton);
+
+    containers.forEach(container => container.classList.remove('show'));
 
     if (hrefButton === 'home') {
         selectId.classList.add('show');
@@ -18,4 +21,3 @@ const clickedButton = (button) => {
         selectId.classList.add('show')
     }
 }
-// 

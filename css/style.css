@@ -13,8 +13,8 @@ body {
 /* MAIN / Container*/
 #main-container {
     border: 0px solid;
-    background: #1a0033;
-    color: #ffffff;
+    background: #0f0f0f;
+    color: #E6E6E6;
     height: auto;
     width: 50%;
     min-height: 400px;
@@ -37,9 +37,10 @@ body {
     height: 3rem;
     width: 75%;
     margin: 3rem auto;
-    padding: 1rem;
-    background: #1a0033;
-    border-bottom: 1px solid white;
+    padding: 0;
+    background: #0f0f0f;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
     
 }
 
@@ -52,8 +53,21 @@ body {
     height: 100%;
 }
 
-.click-options ul a {
+.buttons {
     text-decoration: none;
+    color: rgb(168, 168, 168);
+    padding: 0.5rem 1rem 0.5rem 1rem ;
+    border-radius: 0.5rem 0.5rem 0 0;   
+}
+
+.buttons:hover {
+    background-color: rgb(168, 168, 168);
+    color: #E6E6E6;
+}
+
+.buttons.active{
+    background-color: rgb(168, 168, 168);
+    color: #E6E6E6;
 }
 
 h2 {
@@ -121,13 +135,13 @@ summary {
 
 figcaption a {
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(133, 14, 14);
 }
 
 /* Img - Project / Skills */
 #img-port{
     font-size: 3rem;
-    color: white;
+    color: #E6E6E6;
     padding: 0.5rem;
 }
 
