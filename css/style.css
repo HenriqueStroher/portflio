@@ -125,13 +125,15 @@ h2 {
 
 /* Section Project */
 .projGuiado img {
-    height: 50vh;
+    height: auto;
+    width: 90%;
     box-shadow: 10px 10px 15px 1px #000000;
     border-radius: 1rem;
 }
 
 .projGuiado {
     text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 #skills, #contact{
@@ -168,4 +170,46 @@ figcaption a {
 
 .fa-brands, .fa-solid{
     text-decoration: none;
+}
+
+/* Responsividade 1174px */
+@media screen and (max-width: 1174px) {
+    /* Main-Container */
+    #main-container {
+        width: 75%;
+    }
+
+    /* Home */
+    .container-home {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    #main-container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 618px) {
+    .click-options {
+        width: 90%;
+    }
+
+    .buttons {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    .click-options {
+        height: 6rem;
+    }
+
+    #fa-buttons {
+        display: flex;
+        flex-direction: column;
+    }
 }
